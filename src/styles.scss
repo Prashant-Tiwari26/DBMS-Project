@@ -39,6 +39,7 @@
 .card {
     height: auto;
     width: auto;
+    max-width: 500px;
     border: 1px solid black;
     margin: 16px;
     padding: 8px;
@@ -47,7 +48,7 @@
         width: 100%;
 
         img {
-            max-width: 100%;
+            width: 100%;
         }
     }
 

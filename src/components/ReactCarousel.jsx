@@ -27,13 +27,13 @@ const ReactCarousel = (props) => {
     <div className="carousel">
       <h1>{props.title}</h1>
       <Carousel responsive={responsive} infinite={true} autoPlay={false}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card image={props.image} />
+        <Card image={props.image} />
+        <Card image={props.image} />
+        <Card image={props.image} />
+        <Card image={props.image} />
+        <Card image={props.image} />
+        <Card image={props.image} />
       </Carousel>
     </div>
   );
